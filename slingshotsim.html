@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script src="slingshot.js"></script>
+	<ul>
+		<li><a href="slingshot.html">Information</a></li>
+		<li><a href="slingshotsim.html">Simulation</a></li>
+	</ul>
+	<br>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Falling Simulation</title>
+<link rel="stylesheet" type="text/css" href="slingshot.css">
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 20%
+}
+</style>
+</head>
+<body onload="startGame()">
+<h1>Object Falling Simulation</h1>
+<p>Object falling used gravity blah blah</p>
+<div class="slingslider">
+	<b><span>Wind Strength: <span id="windStrength">0</span></span></b>
+    <input type="range" class="slider" id="num" value="0" min="-10" max="10" style="width: 10rem">
+		<br>
+	<input type="range" min="1" max="100" value="50" class="slider">
+	<label>Gravity</label>
+		<br>
+	<input type="range" min="1" max="100" value="50" class="slider">
+	<label>Density of object</label>
+
+</div>
+</body>
+</html>
+
